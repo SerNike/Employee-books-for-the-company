@@ -1,11 +1,11 @@
 package com.skypro.Coursework;
 
 public class Employee {
-    private final Integer id;
+    private final int id;
     private String fullName;
     private int salary;
     private int department;
-    private static Integer idCounter = 1;
+    private static int idCounter = 1;
 
     public Employee (String fullName, int salary, int department) {
         this.id = idCounter++;
